@@ -11,26 +11,31 @@ npx @smeijer/eslint-config init
 npx @smeijer/tsconfig init
 ```
 
+or
+
+```shell
+npx nexus create-repo
+```
 ---
 
 **Remove everything from here and above**
 
 ---
 
-# My Module
+# __NAME__
 
-> My awesome module
+> __DESCRIPTION__
 
 ## Install
 
 ```sh
-npm install my-node-module
+npm install __NAME__
 ```
 
 ## Usage
 
 ```js
-import { main } from 'my-node-module';
+import { main } from '__NAME__';
 
 main('hi');
 //=> 'hello
@@ -38,7 +43,7 @@ main('hi');
 
 ## API
 
-### main(input, options?)
+### __NAME__(input, options?)
 
 #### input
 
